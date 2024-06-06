@@ -88,3 +88,19 @@ text-align: center;
 }
 h4 {display: inline-block;
 margin-right: 50px;}
+body {
+display: flex;
+flex-direction: column;
+}
+
+@media (max-width: 500px)
+{
+  header {
+   height: 150px;
+   background-position: top center;
+  }
+  h1 {
+    text-align: left;
+    padding-top: 20px;
+  }
+}  
